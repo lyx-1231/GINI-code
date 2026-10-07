@@ -1,0 +1,21 @@
+{
+  "creators": [
+    {
+      "name": "Lei, Yuxiao",
+      "affiliation": "Wuhan University"
+    }
+  ],
+  "title": "Ground-Independent Neural Imager (GINI)",
+  "description": "Source code for the Ground-Independent Neural Imager (GINI) for global ionospheric total electron content (TEC) mapping between 50°S and 50°N using COSMIC-2 Level-1b data.",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "ionospheric TEC",
+    "COSMIC-2",
+    "GNSS radio occultation",
+    "deep learning",
+    "neural imager",
+    "global ionospheric maps"
+  ]
+}
