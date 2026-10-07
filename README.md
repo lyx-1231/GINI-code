@@ -8,6 +8,7 @@ Staging copy of the code proposed for the paper's public GitHub repository.
 - `scripts/test_bylyx/`: three historical 5-channel training/evaluation candidates.
 - `scripts/IONPPP/`: PPP STEC processing and CODE/model validation programs.
 - `scripts/plots/`: selected validation and paper-plot scripts.
+- `plots/`: additional plotting scripts copied for the GitHub release.
 - `scripts/test_bylyx/train_save/`: the 5-channel `LAST_TEST` candidate weights at the path expected by the candidate scripts.
 - `data/examples/`: small single-day CODE/model sample grids.
 
@@ -19,6 +20,10 @@ the canonical training entry point and matching checkpoint before publication.
 The source scripts also contain machine-specific paths and assumptions that
 must be changed to configuration or relative paths before claiming that the
 repository runs out of the box.
+
+Several scripts under `plots/` also contain absolute paths to local data and
+output directories. They are included as source only; provide the corresponding
+Zenodo data and update paths before running them.
 
 The source project's README describes an older 4-channel, 2022 experiment,
 whereas the included gridding/training candidates use 5 channels. Replace or
